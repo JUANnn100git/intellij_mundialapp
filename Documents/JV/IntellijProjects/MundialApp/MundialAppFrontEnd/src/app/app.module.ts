@@ -13,6 +13,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { AboutComponent } from './components/about/about.component';
+import { EstadiosComponent } from './components/estadios/estadios.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { AboutComponent } from './components/about/about.component';
     AppComponent,
     HomeComponent,
     NavbarComponent,
-    AboutComponent
+    AboutComponent,
+    EstadiosComponent
   ],
   imports: [
     BrowserModule,
